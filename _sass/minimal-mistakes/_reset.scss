@@ -6,23 +6,27 @@
 
 html {
   /* apply a natural box layout model to all elements */
+  /* 글씨 크기 조정 */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 16px;
+  font-size: 15px;
 
+  /* 본문 사이즈 */
   @include breakpoint($medium) {
-    font-size: 18px;
+    font-size: 15px;
   }
 
+ /* 헤더 사이즈 */
   @include breakpoint($large) {
-    font-size: 20px;
+    font-size: 16px;
   }
-
+ 
+  /* 제목 사이즈 ( 이 부분만 조정해도 글씨 사이즈 조절가능 ) */
   @include breakpoint($x-large) {
-    font-size: 22px;
+    font-size: 17.5px;
   }
 
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; /* 모바일 폰트 사이즈 */
   -ms-text-size-adjust: 100%;
 }
 

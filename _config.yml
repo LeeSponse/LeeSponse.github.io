@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "LeeSponse"
-  avatar           : "/assets/images/LeeSponsegLogo.png"
+  avatar           : "images/LeeSponsegLogo.png"
   bio              : "LeeSponse Blog"
   location         : "South Korea"
   email            : wlsrb2058@gmail.com

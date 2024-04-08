@@ -273,3 +273,8 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true # 목차 활성화 
+      toc_sticky: true # 목차 따라다니게 하는 기능 추가
+      toc_label: "목차" # 목차 이름 설정하기 
+      toc_icon: "fas fa-star" # 목차 아이콘 설정 
+      comments: ture  # 댓글 활성화 

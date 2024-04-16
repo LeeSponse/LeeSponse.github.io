@@ -3,7 +3,7 @@ layout: single
 title:  머신러닝에 대해 자세히 알아보기 
 excerpt: 머신러닝에 대한 자세한 설명과 장단점 
 categories: Python # 카테고리 설정하기 
-tags: [Python, Study] # 태그 설정하기 
+tags: [ML, Study] # 태그 설정하기 
 author_profile: false
 toc: true # 목차 활성화 
 toc_sticky: true # 목차 따라다니게 하는 기능 추가
